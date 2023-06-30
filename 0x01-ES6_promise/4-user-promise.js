@@ -1,4 +1,4 @@
-* Create a simple signUpUser promise */
+/* Create a simple signUpUser promise */
 
 function signUpUser(firstName, lastName) {
   return new Promise((resolve) => {
