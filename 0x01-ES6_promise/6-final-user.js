@@ -1,4 +1,4 @@
-* Write and export a function handleProfileSignup
+/* Write and export a function handleProfileSignup
  * It should accept firstName, lastName, and fileName arguments
  */
 
