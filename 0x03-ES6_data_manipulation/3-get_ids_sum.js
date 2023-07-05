@@ -1,10 +1,7 @@
-/* eslint-disable no-unused-vars */
+/* A function getStudentIdsSum that returns the sum of all the student ids. */
 
-export default function getStudentIdsSum(getListStudents) {
-  const myArr = [
-    { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
-    { id: 2, firstName: 'James', location: 'Columbia' },
-    { id: 5, firstName: 'Serena', location: 'San Francisco' },
-  ];
-  return myArr.reduce(((reducer, myArr) => reducer + myArr.id), 0);
+function getStudentIdsSum(students) {
+  return students.reduce((acc, student) => acc + student.id, 0);
 }
+
+export default getStudentIdsSum;
